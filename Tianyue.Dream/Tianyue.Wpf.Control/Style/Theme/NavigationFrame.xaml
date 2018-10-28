@@ -1,0 +1,84 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:local="clr-namespace:Tianyue.Wpf.Control"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <Style x:Key="NavigationFrameStyle" TargetType="{x:Type Frame}">
+        
+        <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+        <Setter Property="VerticalContentAlignment" Value="Stretch"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Foreground" Value="ForestGreen" />
+        <Setter Property="local:ControlAttachProperty.VectorIcon" Value="&#xe618;"/>
+        <Setter Property="local:ControlAttachProperty.VectorIconSize" Value="20"/>
+        <Setter Property="local:ControlAttachProperty.CornerRadius" Value="0"/>
+        <Setter Property="local:ControlAttachProperty.VectorIconMargin" Value="0"/>
+        <Setter Property="local:ControlAttachProperty.FocusBackground" Value="{StaticResource ButtonPressedBackground}"/>
+        <Setter Property="local:ControlAttachProperty.FocusForeground" Value="{StaticResource ButtonMouseOverForeground}"/>
+        <!--<Setter Property="local:ControlAttachProperty.MouseOverBackground" Value="{StaticResource ButtonMouseOverBackground}"/>
+        <Setter Property="local:ControlAttachProperty.MouseOverForeground" Value="{StaticResource ButtonPressedForeground}"/>-->
+        <Setter Property="MinHeight" Value="50"/>
+        <Setter Property="MinWidth" Value="50"/>
+        <Setter Property="Margin" Value="0"/>
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="Template">
+            
+            <Setter.Value>
+
+                <ControlTemplate TargetType="{x:Type Frame}">
+
+                    <DockPanel Margin="0">
+
+                        <StackPanel Margin="0" DockPanel.Dock="Top" Orientation="Horizontal">
+
+                            <local:TianyueButton VectorIcon="&#xf060;" Margin="20,0,10,0" Background="Transparent" Foreground="ForestGreen" VectorIconSize="42" Width="50" Height="50"  Style="{StaticResource TianyueButton_Transparency}" Command="{x:Static NavigationCommands.BrowseBack}" ></local:TianyueButton>
+
+                            <local:TianyueButton VectorIcon="&#xf061;" Margin="10,0,10,0" Background="Transparent" Foreground="ForestGreen" VectorIconSize="42" Width="50" Height="50"  Style="{StaticResource TianyueButton_Transparency}" Command="{x:Static NavigationCommands.BrowseForward}" ></local:TianyueButton>
+
+                            <local:TianyueButton VectorIcon="&#xf021;" Margin="10,0,10,0" Background="Transparent" Foreground="ForestGreen" VectorIconSize="42" Width="50" Height="50" Style="{StaticResource TianyueButton_Transparency}" AllowsAnimation="True"  Command="{x:Static NavigationCommands.Refresh}"></local:TianyueButton>
+                            
+                            <!--<Button Content="Go back" Margin="0"  Command="{x:Static NavigationCommands.BrowseBack}" />
+                            <Button Content="Go Forward" Margin="0"  Command="{x:Static NavigationCommands.BrowseForward}" />-->
+                        </StackPanel>
+
+                        <Border BorderBrush="Orange"  Margin="0"  BorderThickness="3" CornerRadius="7" Background="White">
+                            <ContentPresenter />
+                        </Border>
+
+                    </DockPanel>
+
+                    <!--<ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter  Property="Background" Value="{Binding Path=(local:ControlAttachProperty.MouseOverBackground),RelativeSource={RelativeSource Self}}"/>
+                            <Setter  Property="Foreground" Value="{Binding Path=(local:ControlAttachProperty.MouseOverForeground),RelativeSource={RelativeSource Self}}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>-->
+                    
+                </ControlTemplate>
+                
+            </Setter.Value>
+            
+        </Setter>
+        
+    </Style>
+
+    
+    <!--<ControlTemplate x:Key="NavigationFrame" TargetType="{x:Type Frame}">
+        
+        <DockPanel Margin="8">
+            
+            <StackPanel Margin="4" DockPanel.Dock="Top" Orientation="Horizontal">
+                <Button Content="Go back" Margin="4"  Command="{x:Static NavigationCommands.BrowseBack}" />
+                <Button Content="Go Forward" Margin="4"  Command="{x:Static NavigationCommands.BrowseForward}" />
+            </StackPanel>
+            
+            <Border BorderBrush="Orange"  Margin="7"  BorderThickness="4"  Padding="7"
+                CornerRadius="7" Background="White">
+                <ContentPresenter />
+            </Border>
+            
+        </DockPanel>
+        
+    </ControlTemplate>-->
+    
+</ResourceDictionary>

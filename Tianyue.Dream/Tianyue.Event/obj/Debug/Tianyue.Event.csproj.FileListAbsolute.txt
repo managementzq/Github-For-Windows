@@ -1,0 +1,8 @@
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Event\bin\Debug\Tianyue.Event.dll
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Event\bin\Debug\Tianyue.Event.pdb
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Event\obj\Debug\Tianyue.Event.dll
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Event\obj\Debug\Tianyue.Event.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Event\bin\Debug\Tianyue.Event.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Event\bin\Debug\Tianyue.Event.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Event\obj\Debug\Tianyue.Event.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Event\obj\Debug\Tianyue.Event.pdb

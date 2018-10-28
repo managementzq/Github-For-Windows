@@ -1,0 +1,4 @@
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Command\bin\Debug\Tianyue.Command.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Command\bin\Debug\Tianyue.Command.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Command\obj\Debug\Tianyue.Command.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Command\obj\Debug\Tianyue.Command.pdb

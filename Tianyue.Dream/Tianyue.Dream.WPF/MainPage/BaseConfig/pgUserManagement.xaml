@@ -1,0 +1,312 @@
+﻿<Page x:Class="Tianyue.Dream.WPF.MainPage.pgUserManagement"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Tianyue.Dream.WPF.MainPage"
+      xmlns:xly="clr-namespace:Tianyue.Wpf.Control;assembly=Tianyue.Wpf.Control"
+      mc:Ignorable="d"  Background="#5656CA"
+      d:DesignHeight="600" d:DesignWidth="800"
+      Title="pgUserManagement" Loaded="Page_Loaded">
+
+    <Page.Resources>
+        <Style TargetType="StackPanel">
+            <Setter Property="Orientation" Value="Horizontal"/>
+            <Setter Property="Background" Value="{StaticResource WindowBackground}"/>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+
+            <TabControl  Name="tbUser" Style="{StaticResource BottomTabControl}">
+
+                <TabItem Header="查询" Name="tbiQuery" xly:ControlAttachProperty.VectorIcon="&#xf0ce;" Style="{StaticResource VectorIconTabItemStyle}" >
+
+                    <Grid>
+                        
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="150"/>
+                            <RowDefinition Height="4*"/>
+                        </Grid.RowDefinitions>
+
+                        <GroupBox Grid.Row="0" Foreground="Black" BorderBrush="#7AAC27">
+
+                            <Grid>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="2*"/>
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="4*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="4*"></ColumnDefinition>
+                                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <TextBox  Grid.Row="0" Grid.Column="1" Width="300" Height="30" Name="txtQueryUserUniqueId" 
+                                          xly:ControlAttachProperty.Watermark="请输入用户ID" Style="{StaticResource LabelTextBox}" 
+                                          xly:ControlAttachProperty.Label="页面用户ID：" KeyDown="PageQuery_KeyDown">
+                                    <xly:ControlAttachProperty.AttachContent>
+                                        <ControlTemplate>
+                                            <StackPanel Orientation="Horizontal">
+                                                <xly:TianyueButton VectorIcon="&#xf002;"  Style="{StaticResource TianyueButton_Transparency}" IsTabStop="False" 
+                                                                   VectorIconMargin="0" VectorIconSize="22" Foreground="{StaticResource TextForeground}" 
+                                                                   Click="PageQuery_Click" Cursor="Arrow"/>
+                                            </StackPanel>
+                                        </ControlTemplate>
+                                    </xly:ControlAttachProperty.AttachContent>
+                                </TextBox>
+
+                                <TextBox  Grid.Row="0" Grid.Column="3" Width="300" Height="30" Name="txtQueryUserName" 
+                                          xly:ControlAttachProperty.Watermark="请输入用户姓名" Style="{StaticResource LabelTextBox}"
+                                          xly:ControlAttachProperty.Label="用户姓名：" KeyDown="PageQuery_KeyDown">
+                                    <xly:ControlAttachProperty.AttachContent>
+                                        <ControlTemplate>
+                                            <StackPanel Orientation="Horizontal">
+                                                <xly:TianyueButton VectorIcon="&#xf002;"  Style="{StaticResource TianyueButton_Transparency}" IsTabStop="False" 
+                                                                   VectorIconMargin="0" VectorIconSize="22" Foreground="{StaticResource TextForeground}" 
+                                                                   Click="PageQuery_Click" Cursor="Arrow"/>
+                                            </StackPanel>
+                                        </ControlTemplate>
+                                    </xly:ControlAttachProperty.AttachContent>
+                                </TextBox>
+
+                            </Grid>
+
+                        </GroupBox>
+
+                        <DataGrid Grid.Row="1" x:Name="dgQuery" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True"
+                                  ItemsSource="{Binding}"  AutoGenerateColumns="True"  AutoGeneratedColumns="DataGrid_AutoGeneratedColumns"
+                                  MouseDoubleClick="DataGrid_MouseDoubleClick">
+                        </DataGrid>
+
+                    </Grid>
+
+                </TabItem>
+
+                <TabItem Header="编辑" Name="tbiEdit" xly:ControlAttachProperty.VectorIcon="&#xf044;" Style="{StaticResource VectorIconTabItemStyle}" >
+
+                    <Grid>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="130"/>
+                        </Grid.RowDefinitions>
+
+                        <GroupBox Grid.Row="0" x:Name="gbEdit" BorderBrush="#7AAC27">
+
+                            <Grid>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1*"/>
+                                    <RowDefinition Height="2*"/>
+                                    <RowDefinition Height="2*"/>
+                                    <RowDefinition Height="2*"/>
+                                    <RowDefinition Height="2*"/>
+                                    <RowDefinition Height="2*"/>
+                                    <RowDefinition Height="2*"/>
+                                    <RowDefinition Height="1*"/>
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="3*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="3*"></ColumnDefinition>
+                                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <TextBox  Grid.Row="1" Grid.Column="1" Width="400" Name="txtUserNameEdit" xly:ControlAttachProperty.Watermark="请输入用户名" Style="{StaticResource LabelTextBox}" xly:ControlAttachProperty.Label="用户名："></TextBox>
+                                <TextBox  Grid.Row="1" Grid.Column="3" Width="400" Name="txtUserUniqueIdEdit" xly:ControlAttachProperty.Watermark="请输入用户ID" Style="{StaticResource LabelTextBox}" xly:ControlAttachProperty.Label="用户ID："></TextBox>
+
+                                <TextBox  Grid.Row="2" Grid.Column="1" Width="400" Name="txtNicknameEdit" xly:ControlAttachProperty.Watermark="请输入昵称" Style="{StaticResource LabelTextBox}" xly:ControlAttachProperty.Label="昵称："></TextBox>
+                                <TextBox  Grid.Row="2" Grid.Column="3" Width="400" Name="txtPasswordEdit" HorizontalAlignment="Left" xly:ControlAttachProperty.Watermark="请输入密码" Style="{StaticResource LabelTextBox}" xly:ControlAttachProperty.Label="密码："></TextBox>
+
+                                <TextBox  Grid.Row="3" Grid.Column="1" Width="400" Name="txtUserTypeEdit" HorizontalAlignment="Left" xly:ControlAttachProperty.Watermark="请输入类型" Style="{StaticResource LabelTextBox}" xly:ControlAttachProperty.Label="类型："></TextBox>
+                                <TextBox  Grid.Row="3" Grid.Column="3" Width="400" Name="txtEmailAddressEdit" HorizontalAlignment="Left" xly:ControlAttachProperty.Watermark="请输入邮件地址" Style="{StaticResource LabelTextBox}" xly:ControlAttachProperty.Label="邮件地址："></TextBox>
+
+                                <TextBox  Grid.Row="4" Grid.Column="1" Width="400" Name="txtPhoneNumberEdit" HorizontalAlignment="Left" xly:ControlAttachProperty.Watermark="请输入电话号码" Style="{StaticResource LabelTextBox}" xly:ControlAttachProperty.Label="电话号码：" PreviewKeyDown="NumberTextbox_PreviewKeyDown"></TextBox>
+                                <TextBox  Grid.Row="4" Grid.Column="3" Width="400" Name="txtDescriptionEdit" HorizontalAlignment="Left" xly:ControlAttachProperty.Watermark="请输入描述备注" Style="{StaticResource LabelTextBox}" xly:ControlAttachProperty.Label="描述备注："></TextBox>
+                                
+                                <Grid Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left" >
+
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="3*"></ColumnDefinition>
+                                        <ColumnDefinition Width="3*"></ColumnDefinition>
+                                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+
+                                    <xly:TianyueCheckBox Grid.Row="0" Grid.Column="1" Name="cbDisableEdit" Height="36" Width="72" Text="否" CheckedText="是" />
+                                    <Label  Grid.Column="2"  Content="不启用" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="16" Foreground="AntiqueWhite"  />
+
+                                </Grid>
+
+                                <xly:TianyueButton Grid.Row="6" Grid.Column="1" Height="40" Width="120" Name="btnSubmitEdit" VectorIconSize="30" FontSize="24" VectorIcon="&#xf0c7;" Click="btnSubmitEdit_Click">保存</xly:TianyueButton>
+                                <xly:TianyueButton Grid.Row="6" Grid.Column="3" Height="40" Width="120" Name="btnCancelEdit" VectorIconSize="30" FontSize="24" VectorIcon="&#xf0e2;" Click="btnCancelEdit_Click">取消</xly:TianyueButton>
+
+                            </Grid>
+
+                        </GroupBox>
+
+                        <DataGrid Grid.Row="1" x:Name="dgEditItem" 
+                              CanUserAddRows="False"
+                              CanUserDeleteRows="False"
+                              IsReadOnly="True"
+                              ItemsSource="{Binding}" 
+                              AutoGenerateColumns="True">
+                        </DataGrid>
+                        
+                    </Grid>
+
+                </TabItem>
+
+                <TabItem Header="新增" Name="tbiAdd" xly:ControlAttachProperty.VectorIcon="&#xf067;" Style="{StaticResource VectorIconTabItemStyle}" >
+
+                    <Grid>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="130"/>
+                        </Grid.RowDefinitions>
+
+                        <GroupBox Grid.Row="0" x:Name="gbAdd" BorderBrush="#7AAC27">
+
+                            <Grid>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1*"/>
+                                    <RowDefinition Height="2*"/>
+                                    <RowDefinition Height="2*"/>
+                                    <RowDefinition Height="2*"/>
+                                    <RowDefinition Height="2*"/>
+                                    <RowDefinition Height="2*"/>
+                                    <RowDefinition Height="2*"/>
+                                    <RowDefinition Height="1*"/>
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="3*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="3*"></ColumnDefinition>
+                                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <TextBox  Grid.Row="1" Grid.Column="1" Width="400" Name="txtUserNameAdd" xly:ControlAttachProperty.Watermark="请输入用户名" Style="{StaticResource LabelTextBox}" xly:ControlAttachProperty.Label="用户名："></TextBox>
+                                <TextBox  Grid.Row="1" Grid.Column="3" Width="400" Name="txtUserUniqueIdAdd" xly:ControlAttachProperty.Watermark="请输入用户ID" Style="{StaticResource LabelTextBox}" xly:ControlAttachProperty.Label="用户ID："></TextBox>
+
+                                <TextBox  Grid.Row="2" Grid.Column="1" Width="400" Name="txtNicknameAdd" xly:ControlAttachProperty.Watermark="请输入昵称" Style="{StaticResource LabelTextBox}" xly:ControlAttachProperty.Label="昵称："></TextBox>
+                                <TextBox  Grid.Row="2" Grid.Column="3" Width="400" Name="txtPasswordAdd" HorizontalAlignment="Left" xly:ControlAttachProperty.Watermark="请输入密码" Style="{StaticResource LabelTextBox}" xly:ControlAttachProperty.Label="密码："></TextBox>
+
+                                <TextBox  Grid.Row="3" Grid.Column="1" Width="400" Name="txtUserTypeAdd" HorizontalAlignment="Left" xly:ControlAttachProperty.Watermark="请输入类型" Style="{StaticResource LabelTextBox}" xly:ControlAttachProperty.Label="类型："></TextBox>
+                                <TextBox  Grid.Row="3" Grid.Column="3" Width="400" Name="txtEmailAddressAdd" HorizontalAlignment="Left" xly:ControlAttachProperty.Watermark="请输入邮件地址" Style="{StaticResource LabelTextBox}" xly:ControlAttachProperty.Label="邮件地址："></TextBox>
+
+                                <TextBox  Grid.Row="4" Grid.Column="1" Width="400" Name="txtPhoneNumberAdd" HorizontalAlignment="Left" xly:ControlAttachProperty.Watermark="请输入电话号码" Style="{StaticResource LabelTextBox}" xly:ControlAttachProperty.Label="电话号码：" PreviewKeyDown="NumberTextbox_PreviewKeyDown"></TextBox>
+                                <TextBox  Grid.Row="4" Grid.Column="3" Width="400" Name="txtDescriptionAdd" HorizontalAlignment="Left" xly:ControlAttachProperty.Watermark="请输入描述备注" Style="{StaticResource LabelTextBox}" xly:ControlAttachProperty.Label="描述备注："></TextBox>
+
+                                <Grid Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left" >
+
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="3*"></ColumnDefinition>
+                                        <ColumnDefinition Width="3*"></ColumnDefinition>
+                                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+
+                                    <xly:TianyueCheckBox Grid.Row="0" Grid.Column="1" Name="cbDisableAdd" Height="36" Width="72" Text="否" CheckedText="是" />
+                                    <Label  Grid.Column="2"  Content="不启用" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="16" Foreground="AntiqueWhite"  />
+
+                                </Grid>
+
+                                <xly:TianyueButton Grid.Row="6" Grid.Column="1" Height="40" Width="120" Name="btnSubmitAdd" VectorIconSize="30" FontSize="24" VectorIcon="&#xf0c7;" Click="btnSubmitAdd_Click">保存</xly:TianyueButton>
+                                <xly:TianyueButton Grid.Row="6" Grid.Column="3" Height="40" Width="120" Name="btnCancelAdd" VectorIconSize="30" FontSize="24" VectorIcon="&#xf0e2;" Click="btnCancelAdd_Click">取消</xly:TianyueButton>
+
+                            </Grid>
+
+                        </GroupBox>
+
+                        <DataGrid Grid.Row="1" x:Name="dgAddItem" 
+                              CanUserAddRows="False"
+                              CanUserDeleteRows="False"
+                              IsReadOnly="True"
+                              ItemsSource="{Binding}" 
+                              AutoGenerateColumns="True">
+                        </DataGrid>
+
+                    </Grid>
+
+                </TabItem>
+
+                <TabItem Header="角色设置" Name="tbiSetRole" xly:ControlAttachProperty.VectorIcon="&#xf0c0;" Style="{StaticResource VectorIconTabItemStyle}" >
+
+                    <Grid>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="100"/>
+                            <RowDefinition Height="2*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="3*"></ColumnDefinition>
+                            <ColumnDefinition Width="100"></ColumnDefinition>
+                            <ColumnDefinition Width="3*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBox  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Width="300" HorizontalAlignment="Center" Name="txtUserInfo" xly:ControlAttachProperty.Watermark="请输入用户信息" Style="{StaticResource LabelTextBox}" 
+                                      xly:ControlAttachProperty.Label="用户信息：" KeyDown="txtUserInfo_KeyDown" TextChanged="txtUserInfo_TextChanged"></TextBox>
+
+                        <DataGrid Grid.Row="1" Grid.Column="0" x:Name="dgUserSet" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True"
+                                          ItemsSource="{Binding}"  AutoGenerateColumns="True"  AutoGeneratedColumns="DataGrid_AutoGeneratedColumns">
+
+                        </DataGrid>
+
+                        <xly:TianyueButton Grid.Row="1" Grid.Column="1" Height="40" Width="100" Name="btnSubmitSet" VectorIconSize="30" FontSize="24" VectorIcon="&#xf0c7;" Click="btnSubmitAdd_Click">保存</xly:TianyueButton>
+
+                        <ListView Grid.Row="1" Grid.Column="2" x:Name="lvRole"  Style="{StaticResource DefaultListView}" >
+                          
+                            <ListView.View>
+                              
+                                <GridView ColumnHeaderContainerStyle="{StaticResource DefaultGridViewColumnHeader}">
+                                   
+                                    <GridViewColumn Width="auto" Header="选择">
+                                        
+                                        <GridViewColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <CheckBox Tag="{Binding RID}"></CheckBox>
+                                            </DataTemplate>
+                                        </GridViewColumn.CellTemplate>
+                                        
+                                    </GridViewColumn>
+                                   
+                                    <GridViewColumn Header="RoleName" DisplayMemberBinding="{Binding RoleName}" Width="auto"></GridViewColumn>
+                             
+                                </GridView>
+                         
+                            </ListView.View>
+                      
+                        </ListView>
+
+                    </Grid>
+
+
+                </TabItem>
+
+            </TabControl>
+
+        </Grid>
+
+    </Grid>
+</Page>

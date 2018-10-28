@@ -1,0 +1,8 @@
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Global\bin\Debug\Tianyue.Global.dll
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Global\bin\Debug\Tianyue.Global.pdb
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Global\obj\Debug\Tianyue.Global.dll
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Global\obj\Debug\Tianyue.Global.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Global\bin\Debug\Tianyue.Global.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Global\bin\Debug\Tianyue.Global.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Global\obj\Debug\Tianyue.Global.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Global\obj\Debug\Tianyue.Global.pdb

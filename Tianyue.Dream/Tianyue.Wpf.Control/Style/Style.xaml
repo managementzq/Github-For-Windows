@@ -1,0 +1,47 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:local="clr-namespace:Tianyue.Wpf.Control"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        
+        <!--<ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Colour.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Global.xaml" />-->
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Share.xaml" />
+
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Theme/Calendar.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Theme/CheckBox.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Theme/ComboBox.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Theme/DataGrid.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Theme/DatePicker.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Theme/ListBox.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Theme/ListView.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Theme/LoopProcessBar.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Theme/Menu.xaml"/>
+        <!--<ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Theme/NavigationTab.xaml"/>-->
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Theme/PasswordBox.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Theme/ProgressBar.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Theme/RadioButton.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Theme/ScrollViewer.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Theme/Separator.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Theme/TabControl.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Theme/TextBox.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Theme/ToggleButton.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Theme/TreeView.xaml"/>
+        <!--<ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Theme/VectorIcon.xaml" />-->
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/Style/Theme/NavigationFrame.xaml"/>
+
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/TianyueControl/BusyBox.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/TianyueControl/HighTextBlock.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/TianyueControl/MultiComboBox.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/TianyueControl/ProgressRing.xaml"/>
+        <!--<ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/TianyueControl/TianyueButton.xaml" />-->
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/TianyueControl/TianyueCheckBox.xaml"/>
+        <!--<ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/TianyueControl/TianyueImage.xaml"/>-->
+        <!--<ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/TianyueControl/TianyueMessageBox.xaml"/>-->
+        <!--<ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/TianyueControl/WaitingBox.xaml"/>-->
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/TianyueControl/WindowBase.xaml" />
+        <!--<ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/TianyueControl/TianyueTreeView.xaml" />-->
+        
+    </ResourceDictionary.MergedDictionaries>
+    
+</ResourceDictionary>

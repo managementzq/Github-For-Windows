@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:local="clr-namespace:Tianyue.Wpf.Control"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/TianyueControl/TianyueButton.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/TianyueControl/ProgressRing.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/TianyueControl/BusyBox.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/TianyueControl/TianyueCheckBox.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/TianyueControl/MultiComboBox.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Tianyue.Wpf.Control;component/TianyueControl/HighTextBlock.xaml"/>
+
+    </ResourceDictionary.MergedDictionaries>
+    
+</ResourceDictionary>

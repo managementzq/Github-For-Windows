@@ -1,0 +1,9 @@
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.QueryObject\bin\Debug\Tianyue.QueryObject.dll
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.QueryObject\bin\Debug\Tianyue.QueryObject.pdb
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.QueryObject\obj\Debug\Tianyue.QueryObject.dll
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.QueryObject\obj\Debug\Tianyue.QueryObject.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.QueryObject\bin\Debug\Tianyue.QueryObject.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.QueryObject\bin\Debug\Tianyue.QueryObject.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.QueryObject\obj\Debug\Tianyue.QueryObject.csprojResolveAssemblyReference.cache
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.QueryObject\obj\Debug\Tianyue.QueryObject.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.QueryObject\obj\Debug\Tianyue.QueryObject.pdb

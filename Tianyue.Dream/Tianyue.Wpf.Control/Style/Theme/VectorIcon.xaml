@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:local="clr-namespace:Tianyue.Wpf.Control"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--VectorFont-->
+    <Style x:Key="VectorIcon" TargetType="TextBlock">
+        <!--<Setter Property="FontFamily" Value="/Tianyue.Wpf.Control;component/Resources/#SF2015"></Setter>-->
+        <Setter Property="FontFamily" Value="/Tianyue.Wpf.Control;component/Resources/Font/#FontAwesome"></Setter>
+        <Setter Property="Foreground" Value="{StaticResource TextForeground}"/>
+        <Setter Property="TextAlignment" Value="Center"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="FontSize" Value="20"/>
+    </Style>
+    
+</ResourceDictionary>

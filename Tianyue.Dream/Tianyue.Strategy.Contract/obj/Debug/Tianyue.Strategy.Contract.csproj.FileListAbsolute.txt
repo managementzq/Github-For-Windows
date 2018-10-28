@@ -1,0 +1,14 @@
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Strategy.Contract\bin\Debug\Tianyue.Strategy.Contract.dll
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Strategy.Contract\bin\Debug\Tianyue.Strategy.Contract.pdb
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Strategy.Contract\bin\Debug\Tianyue.QueryObject.dll
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Strategy.Contract\bin\Debug\Tianyue.QueryObject.pdb
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Strategy.Contract\obj\Debug\Tianyue.Strategy.Contract.csprojResolveAssemblyReference.cache
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Strategy.Contract\obj\Debug\Tianyue.Strategy.Contract.dll
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Strategy.Contract\obj\Debug\Tianyue.Strategy.Contract.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Strategy.Contract\bin\Debug\Tianyue.Strategy.Contract.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Strategy.Contract\bin\Debug\Tianyue.Strategy.Contract.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Strategy.Contract\obj\Debug\Tianyue.Strategy.Contract.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Strategy.Contract\obj\Debug\Tianyue.Strategy.Contract.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Strategy.Contract\bin\Debug\Tianyue.Domain.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Strategy.Contract\bin\Debug\Tianyue.Domain.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Strategy.Contract\obj\Debug\Tianyue.Strategy.Contract.csprojResolveAssemblyReference.cache

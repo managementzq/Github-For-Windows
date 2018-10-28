@@ -1,0 +1,91 @@
+﻿<Window x:Class="Tianyue.Dream.WPF.MainWindowBackup"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tianyue.Dream.WPF"
+        xmlns:xly="clr-namespace:Tianyue.Wpf.Control;assembly=Tianyue.Wpf.Control"
+        mc:Ignorable="d"
+        Title="MainWindow" WindowStartupLocation="CenterScreen" 
+        WindowState="Maximized" ResizeMode="NoResize" WindowStyle="None">
+    
+    <Window.Resources>
+        <Style TargetType="StackPanel">
+            <Setter Property="Background" Value="{StaticResource WindowBackground}"/>
+        </Style>
+
+        <Style TargetType="Grid">
+            <Setter Property="Background" Value="{StaticResource WindowBackground}"/>
+        </Style>
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="0">
+
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="180"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60"></ColumnDefinition>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" Height="60"  >
+                    
+                    <Image Grid.Column="0"   Source="Resources\Decepticon.png"></Image>
+                    <!--<xly:TianyueImage Grid.Column="0" Source="Resources\Decepticon.png"></xly:TianyueImage>-->
+
+                </StackPanel>
+              
+            </Grid>
+            
+            <StackPanel Grid.Column="1" Orientation="Horizontal">
+                
+            </StackPanel>
+
+            <Grid Grid.Column="2">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <xly:TianyueButton Grid.Column="0" Name="btnProfile" VectorIconSize="45" VectorIcon="&#xf2bd;" Margin="3" Style="{StaticResource TianyueButton_Transparency}"></xly:TianyueButton>
+                <xly:TianyueButton Grid.Column="1" Name="btnMinimize" VectorIconSize="45" VectorIcon="&#xf068;" Margin="3" Style="{StaticResource TianyueButton_Transparency}"></xly:TianyueButton>
+                <xly:TianyueButton Grid.Column="2" Name="btnExit" VectorIconSize="45" VectorIcon="&#xf08b;" Margin="3" Style="{StaticResource TianyueButton_Transparency}" Click="btnExit_Click"></xly:TianyueButton>
+
+            </Grid>
+            
+        </Grid>
+
+        <Grid Grid.Row="1">
+
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" Orientation="Horizontal">
+                
+            </StackPanel>
+           
+            <Frame x:Name="PageContext" Grid.Column="1" BorderBrush="Blue" BorderThickness="1" NavigationUIVisibility="Visible"/>
+
+        </Grid>
+        
+    </Grid>
+
+</Window>

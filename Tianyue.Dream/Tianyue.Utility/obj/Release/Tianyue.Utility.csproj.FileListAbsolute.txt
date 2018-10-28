@@ -1,0 +1,16 @@
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Utility\bin\Release\Tianyue.Utility.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Utility\bin\Release\Tianyue.Utility.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Utility\bin\Release\CommonServiceLocator.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Utility\bin\Release\Microsoft.Expression.Drawing.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Utility\bin\Release\CommonServiceLocator.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Utility\bin\Release\de\Microsoft.Expression.Drawing.resources.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Utility\bin\Release\es\Microsoft.Expression.Drawing.resources.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Utility\bin\Release\fr\Microsoft.Expression.Drawing.resources.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Utility\bin\Release\it\Microsoft.Expression.Drawing.resources.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Utility\bin\Release\ja\Microsoft.Expression.Drawing.resources.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Utility\bin\Release\ko\Microsoft.Expression.Drawing.resources.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Utility\bin\Release\ru\Microsoft.Expression.Drawing.resources.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Utility\bin\Release\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Utility\bin\Release\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Utility\obj\Release\Tianyue.Utility.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Utility\obj\Release\Tianyue.Utility.pdb

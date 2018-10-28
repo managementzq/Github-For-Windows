@@ -1,0 +1,14 @@
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.CommandHandler\bin\Debug\Tianyue.CommandHandler.dll
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.CommandHandler\bin\Debug\Tianyue.CommandHandler.pdb
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.CommandHandler\bin\Debug\Tianyue.Command.dll
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.CommandHandler\bin\Debug\Tianyue.Command.pdb
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.CommandHandler\obj\Debug\Tianyue.CommandHandler.csprojResolveAssemblyReference.cache
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.CommandHandler\obj\Debug\Tianyue.CommandHandler.dll
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.CommandHandler\obj\Debug\Tianyue.CommandHandler.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.CommandHandler\bin\Debug\Tianyue.CommandHandler.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.CommandHandler\bin\Debug\Tianyue.CommandHandler.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.CommandHandler\bin\Debug\Tianyue.Command.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.CommandHandler\bin\Debug\Tianyue.Command.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.CommandHandler\obj\Debug\Tianyue.CommandHandler.csprojResolveAssemblyReference.cache
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.CommandHandler\obj\Debug\Tianyue.CommandHandler.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.CommandHandler\obj\Debug\Tianyue.CommandHandler.pdb

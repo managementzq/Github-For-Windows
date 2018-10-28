@@ -1,0 +1,16 @@
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.EventHandler\bin\x86\Debug\Tianyue.EventHandler.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.EventHandler\bin\x86\Debug\Tianyue.EventHandler.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.EventHandler\bin\x86\Debug\Tianyue.Event.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.EventHandler\bin\x86\Debug\Tianyue.Event.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.EventHandler\obj\x86\Debug\Tianyue.EventHandler.csprojResolveAssemblyReference.cache
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.EventHandler\obj\x86\Debug\Tianyue.EventHandler.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.EventHandler\obj\x86\Debug\Tianyue.EventHandler.pdb
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.EventHandler\bin\x86\Debug\Tianyue.EventHandler.dll
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.EventHandler\bin\x86\Debug\Tianyue.EventHandler.pdb
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.EventHandler\bin\x86\Debug\Tianyue.Event.dll
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.EventHandler\bin\x86\Debug\Tianyue.Event.pdb
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.EventHandler\obj\x86\Debug\Tianyue.EventHandler.csprojAssemblyReference.cache
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.EventHandler\obj\x86\Debug\Tianyue.EventHandler.csproj.CoreCompileInputs.cache
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.EventHandler\obj\x86\Debug\Tianyue.EventHandler.csproj.CopyComplete
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.EventHandler\obj\x86\Debug\Tianyue.EventHandler.dll
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.EventHandler\obj\x86\Debug\Tianyue.EventHandler.pdb

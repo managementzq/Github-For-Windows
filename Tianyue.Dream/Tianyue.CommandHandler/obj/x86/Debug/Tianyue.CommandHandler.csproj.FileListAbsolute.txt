@@ -1,0 +1,16 @@
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.CommandHandler\bin\x86\Debug\Tianyue.CommandHandler.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.CommandHandler\bin\x86\Debug\Tianyue.CommandHandler.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.CommandHandler\bin\x86\Debug\Tianyue.Command.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.CommandHandler\bin\x86\Debug\Tianyue.Command.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.CommandHandler\obj\x86\Debug\Tianyue.CommandHandler.csprojResolveAssemblyReference.cache
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.CommandHandler\obj\x86\Debug\Tianyue.CommandHandler.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.CommandHandler\obj\x86\Debug\Tianyue.CommandHandler.pdb
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.CommandHandler\bin\x86\Debug\Tianyue.CommandHandler.dll
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.CommandHandler\bin\x86\Debug\Tianyue.CommandHandler.pdb
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.CommandHandler\bin\x86\Debug\Tianyue.Command.dll
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.CommandHandler\bin\x86\Debug\Tianyue.Command.pdb
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.CommandHandler\obj\x86\Debug\Tianyue.CommandHandler.csprojAssemblyReference.cache
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.CommandHandler\obj\x86\Debug\Tianyue.CommandHandler.csproj.CoreCompileInputs.cache
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.CommandHandler\obj\x86\Debug\Tianyue.CommandHandler.csproj.CopyComplete
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.CommandHandler\obj\x86\Debug\Tianyue.CommandHandler.dll
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.CommandHandler\obj\x86\Debug\Tianyue.CommandHandler.pdb

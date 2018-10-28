@@ -1,0 +1,15 @@
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Provider\bin\Debug\Tianyue.Provider.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Provider\bin\Debug\Tianyue.Provider.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Provider\bin\Debug\EntityFramework.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Provider\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Provider\bin\Debug\Tianyue.Mapping.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Provider\bin\Debug\Tianyue.Mapping.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Provider\bin\Debug\EntityFramework.xml
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Provider\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Provider\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Provider\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Provider\obj\Debug\Tianyue.Provider.csprojResolveAssemblyReference.cache
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Provider\obj\Debug\Tianyue.Provider.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Provider\obj\Debug\Tianyue.Provider.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Provider\bin\Debug\Tianyue.Domain.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Provider\bin\Debug\Tianyue.Domain.pdb

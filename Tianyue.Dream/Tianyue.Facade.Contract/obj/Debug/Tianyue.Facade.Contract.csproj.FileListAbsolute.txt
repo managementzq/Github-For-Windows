@@ -1,0 +1,14 @@
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Facade.Contract\bin\Debug\Tianyue.Facade.Contract.dll
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Facade.Contract\bin\Debug\Tianyue.Facade.Contract.pdb
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Facade.Contract\bin\Debug\Tianyue.QueryObject.dll
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Facade.Contract\bin\Debug\Tianyue.QueryObject.pdb
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Facade.Contract\obj\Debug\Tianyue.Facade.Contract.csprojResolveAssemblyReference.cache
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Facade.Contract\obj\Debug\Tianyue.Facade.Contract.dll
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Facade.Contract\obj\Debug\Tianyue.Facade.Contract.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Facade.Contract\bin\Debug\Tianyue.Facade.Contract.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Facade.Contract\bin\Debug\Tianyue.Facade.Contract.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Facade.Contract\obj\Debug\Tianyue.Facade.Contract.csprojResolveAssemblyReference.cache
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Facade.Contract\obj\Debug\Tianyue.Facade.Contract.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Facade.Contract\obj\Debug\Tianyue.Facade.Contract.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Facade.Contract\bin\Debug\Tianyue.Domain.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Facade.Contract\bin\Debug\Tianyue.Domain.pdb

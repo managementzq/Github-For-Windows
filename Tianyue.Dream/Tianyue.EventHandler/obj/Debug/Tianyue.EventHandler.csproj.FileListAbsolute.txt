@@ -1,0 +1,14 @@
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.EventHandler\bin\Debug\Tianyue.EventHandler.dll
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.EventHandler\bin\Debug\Tianyue.EventHandler.pdb
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.EventHandler\bin\Debug\Tianyue.Event.dll
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.EventHandler\bin\Debug\Tianyue.Event.pdb
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.EventHandler\obj\Debug\Tianyue.EventHandler.csprojResolveAssemblyReference.cache
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.EventHandler\obj\Debug\Tianyue.EventHandler.dll
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.EventHandler\obj\Debug\Tianyue.EventHandler.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.EventHandler\bin\Debug\Tianyue.EventHandler.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.EventHandler\bin\Debug\Tianyue.EventHandler.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.EventHandler\bin\Debug\Tianyue.Event.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.EventHandler\bin\Debug\Tianyue.Event.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.EventHandler\obj\Debug\Tianyue.EventHandler.csprojResolveAssemblyReference.cache
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.EventHandler\obj\Debug\Tianyue.EventHandler.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.EventHandler\obj\Debug\Tianyue.EventHandler.pdb

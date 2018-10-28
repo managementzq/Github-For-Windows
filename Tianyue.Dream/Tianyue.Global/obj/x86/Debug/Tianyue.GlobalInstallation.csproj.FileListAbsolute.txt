@@ -1,0 +1,7 @@
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Global\bin\x86\Debug\Tianyue.GlobalInstallation.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Global\bin\x86\Debug\Tianyue.GlobalInstallation.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Global\bin\x86\Debug\Tianyue.Domain.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Global\bin\x86\Debug\Tianyue.Domain.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Global\obj\x86\Debug\Tianyue.GlobalInstallation.csprojResolveAssemblyReference.cache
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Global\obj\x86\Debug\Tianyue.GlobalInstallation.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Global\obj\x86\Debug\Tianyue.GlobalInstallation.pdb

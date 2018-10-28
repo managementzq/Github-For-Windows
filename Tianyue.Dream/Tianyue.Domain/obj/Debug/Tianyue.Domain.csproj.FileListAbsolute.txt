@@ -1,0 +1,8 @@
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Domain\bin\Debug\Tianyue.Domain.dll
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Domain\bin\Debug\Tianyue.Domain.pdb
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Domain\obj\Debug\Tianyue.Domain.dll
+D:\Project\Tianyue\Tianyue\trunk\Tianyue.Dream\Tianyue.Domain\obj\Debug\Tianyue.Domain.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Domain\bin\Debug\Tianyue.Domain.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Domain\bin\Debug\Tianyue.Domain.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Domain\obj\Debug\Tianyue.Domain.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Domain\obj\Debug\Tianyue.Domain.pdb

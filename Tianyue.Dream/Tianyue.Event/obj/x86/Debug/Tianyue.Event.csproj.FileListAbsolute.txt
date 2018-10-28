@@ -1,0 +1,11 @@
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Event\bin\x86\Debug\Tianyue.Event.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Event\bin\x86\Debug\Tianyue.Event.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Event\obj\x86\Debug\Tianyue.Event.csprojResolveAssemblyReference.cache
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Event\obj\x86\Debug\Tianyue.Event.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Event\obj\x86\Debug\Tianyue.Event.pdb
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.Event\bin\x86\Debug\Tianyue.Event.dll
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.Event\bin\x86\Debug\Tianyue.Event.pdb
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.Event\obj\x86\Debug\Tianyue.Event.csprojAssemblyReference.cache
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.Event\obj\x86\Debug\Tianyue.Event.csproj.CoreCompileInputs.cache
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.Event\obj\x86\Debug\Tianyue.Event.dll
+D:\Git\Microsoft\MES\Tianyue.Dream\Tianyue.Event\obj\x86\Debug\Tianyue.Event.pdb

@@ -1,0 +1,7 @@
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Business.Contract\bin\x86\Debug\Tianyue.Business.Contract.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Business.Contract\bin\x86\Debug\Tianyue.Business.Contract.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Business.Contract\bin\x86\Debug\Tianyue.Domain.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Business.Contract\bin\x86\Debug\Tianyue.Domain.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Business.Contract\obj\x86\Debug\Tianyue.Business.Contract.csprojResolveAssemblyReference.cache
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Business.Contract\obj\x86\Debug\Tianyue.Business.Contract.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Business.Contract\obj\x86\Debug\Tianyue.Business.Contract.pdb

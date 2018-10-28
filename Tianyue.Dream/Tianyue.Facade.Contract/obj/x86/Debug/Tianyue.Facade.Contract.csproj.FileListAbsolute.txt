@@ -1,0 +1,7 @@
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Facade.Contract\bin\x86\Debug\Tianyue.Facade.Contract.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Facade.Contract\bin\x86\Debug\Tianyue.Facade.Contract.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Facade.Contract\bin\x86\Debug\Tianyue.Domain.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Facade.Contract\bin\x86\Debug\Tianyue.Domain.pdb
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Facade.Contract\obj\x86\Debug\Tianyue.Facade.Contract.csprojResolveAssemblyReference.cache
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Facade.Contract\obj\x86\Debug\Tianyue.Facade.Contract.dll
+D:\Project\Tianyue\Tianyue.Dream\Tianyue.Facade.Contract\obj\x86\Debug\Tianyue.Facade.Contract.pdb
